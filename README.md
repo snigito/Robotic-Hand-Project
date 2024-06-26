@@ -30,7 +30,7 @@ The design shown in the above video has a good base, but had a lot of issues I w
 
 To start prototyping the servo movement code with the Arduinos, I got a small robotic hand with servos from amazon. This hand was much too small to use as a final product but it was good to use for testing.  
 
-![Picture of Prototype](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlJicoS9gjlR_LEHXZNwHS8PNSSyoX4H9GiE_wnowEXp_pJLnYCeQ446wdkSJ18OT9GENutKaxLSY_Ont-2X7a02qia64LL5OiiwfORW2zlCjCPoZyfRbg=s512)
+![Picture of Prototype](images/IMG_9713.jpg)
 
 Servo motors have a set range of motion (0 to 180). In the code, I put the value that I was setting the servo to in a loop. I started testing the servos by incrementing them and checking both extremes. **VIDEO OF SERVO SWEEP TESTS**
 
