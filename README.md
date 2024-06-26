@@ -10,8 +10,9 @@ Arduinos are small programmable computers that are cheap and easy to use for sma
 
 ![Picture of Arduino](images/IMG_9704.jpg)
 
+The second core component of this project are the flex resistors which are long strips that increase resistance as they are bent. They have little electrical resistance (ohms) when they are straight, but the more they are flexed, the greater the resistance. 
 
-![Picture of Arduino](https://cdn.shopify.com/s/files/1/0578/4128/7283/products/SpectraFlex-Series-Flattened_280x420.webp?v=1691781691)
+![Picture of Flex resistor](https://cdn.shopify.com/s/files/1/0578/4128/7283/products/SpectraFlex-Series-Flattened_280x420.webp?v=1691781691)
 
 The store page to buy these is [here](https://www.spectrasymbol.com/resistive-flex-sensors)
 
