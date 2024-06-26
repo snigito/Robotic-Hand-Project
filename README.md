@@ -8,7 +8,7 @@ After researching different options, I decided to make a robotic hand that would
 
 Arduinos are small programmable computers that are cheap and easy to use for small projects like this one. Initially I was using a regular ESP-32, but because they do not have a screen or a battery, it would not have been possible to make Thing wireless. I decided to use the Heltec WiFi LoRa 32 (V3) because it is smaller than a regular Arduino (1” x 0.5”), it has a USB C charging port, a rechargeable battery, WiFi, Bluetooth, and an LED screen. 
 
-![Picture of Arduino](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlLROTUnxPVGmVwVbzMIUbgTieKqn1qLr7YkdT7tQJ06wVR4OgBjcsc9xNfvXi58Rn75jseXG1iBoSM_LyziCzd1NrUtCuNBHnNXE6_dYpfLuh659onwbg=s512)
+![Picture of Arduino](images/IMG_9704.jpg)
 
 
 ![Picture of Arduino](https://cdn.shopify.com/s/files/1/0578/4128/7283/products/SpectraFlex-Series-Flattened_280x420.webp?v=1691781691)
