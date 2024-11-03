@@ -18,7 +18,7 @@ The store page to buy these is [here](https://www.spectrasymbol.com/resistive-fl
 
 Another important component are the servos, a great staple of any electronics project.
 
-![Picture of Servo](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlJ8n4Kbt0Ya3k8gmhbL-TQEPrWSpIC2H1OSggB_Cxh5u3lcGi_C_0Ay-T9zlYuaiHpySQjVoPJtqDqm3g-CGKYiwdaHp1TSJ9lIc7M1XBrVdLsUnxNnoA=s512)
+![Picture of Servo](images/HandServo.jpg)
 
 These servos can be bought [here](https://tinyurl.com/rhu3s3ph)
 
