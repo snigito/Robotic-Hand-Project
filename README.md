@@ -36,7 +36,9 @@ The design shown in the above video has a good base, but had a lot of issues I w
 
 To start prototyping the servo movement code with the Arduinos, I got a small robotic hand with servos from amazon. This hand was much too small to use as a final product but it was good to use for testing.  
 
-![Picture of Prototype](images/IMG_9713.jpg)
+<div align="center">
+  <img src="images/IMG_9713.jpg" alt="Picture of Prototype">
+</div>
 
 Servo motors have a set range of motion (0 to 180). In the code, I put the value that I was setting the servo to in a loop. I started testing the servos by incrementing them and checking both extremes. **VIDEO OF SERVO SWEEP TESTS**
 
@@ -44,7 +46,9 @@ Then I learned about how the WIFI communication system worked between the two Ar
 
 Next I made a basic PCB (printed circuit board) so that I could test multiple servos at once in a more streamlined fashion. Each servo needs three wires to function: the power IN (red), the ground which completes the circuit (black), and the signal wire which tells the servo what angle to be at (yellow). In order to make the PCB, I first planned out the routes that I needed the wires to make, counted the pins that I needed going in, and measured the distances of the wires and cut them accordingly. I soldered the wires to the board, made the connections between the (little circles on the board), and used a multimeter to check that each wire was running to where it was supposed to. In the picture below, the top row of pins all go to the servos (5 servos means 15 pins). All of the wires connect to the pins in a sequence: yellow, red, black, yellow, red, black…). In the bottom left, the signal wires go into a ribbon cable connection which connects to the Arduino so that it can control each servo. I had to crimp a female connection onto the ends of the ribbon cable so that it would connect to the male pins on the arduino. The arduino is able ​​to differentiate each servo by the pin number that it is connected to. In the bottom right, the two pins are connected to a small battery pack of AA batteries that provides both the power and ground for the circuit.
 
-![Image of Circut Board](images/IMG_6236.jpg)
+<div align="center">
+  <img src="images/IMG_6236.jpg" alt="Image of Circut Board">
+</div>
 
 ![Image of Board and Servos](images/IMG_9718.jpg)
 
