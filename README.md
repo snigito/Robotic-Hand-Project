@@ -68,7 +68,13 @@ These photos show an early prototype 3D printed hand. On the left you see the fi
 
 The next steps were to figure out a way to mount the servos inside the wrist portion of the hand. The servos needed to fit in a way where their movement arcs would not intersect with one another. In the video I used for inspiration the person doing the project decided to glue the servos to the 3D print but I did not like the idea of that so I decided to make something more permanent. I used metal inserts that can be pressed into the 3D print which allowed me to screw the servos down. I used a special tip for the hot soldering iron to melt the plastic and press the insert into it.
 
-![Image of First Hand Servo Layout](images/IMG_6541.jpg) ![Image of Final Hand Servo layout](images/IMG_6579.jpg)
+<div align="center">
+  <img src="images/IMG_6541.jpg" alt="Image of First Hand Servo Layout">
+</div>
+
+<div align="center">
+  <img src="images/IMG_6579.jpg" alt="Image of Final Hand Servo layout">
+</div>
 
 I changed over to a skin tone color for the 3D print. On the left is an initial servo layout that I tested, but ultimately decided that it did not fit well. 
 
