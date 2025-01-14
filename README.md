@@ -56,7 +56,13 @@ Next I made a basic PCB (printed circuit board) so that I could test multiple se
 
 The hand itself and the fingers are all very similar to what was used in the previously mentioned Youtube video. Each finger is separated into three segments (with the thumb being only two segments). Each segment has three holes in it (two of which are larger than the third) and an elastic string is threaded through the holes to hold the fingers together. The elastic string ties off at the tip of each finger and the knuckle at the base of the finger. The elastic string is what is holding the hand together and what keeps the hand upright when the servos are in their “up” position. The tension of the elastic is also what brings the fingers of the hand back up when the servos release to their “up” position. The smaller hole is used for dental floss (fishing line was tried but found to be too stretchy and smooth which resulted in the line detaching from the servos) which connects at the tip of each finger, runs down the inside of the finger through to the palm. The floss is then tied to the servos so that when a servo moves downwards, it will pull on the floss and therefore pull the corresponding finger down. 
 
-![Picture of Red Hand 1](images/IMG_9720.jpg) ![Picture of Red Hand 2](images/IMG_9719.jpg)
+<div align="center">
+  <img src="images/IMG_9720.jpg" alt="Picture of Red Hand 1">
+</div>
+
+<div align="center">
+  <img src="images/IMG_9719.jpg" alt="Picture of Red Hand 2">
+</div>
 
 These photos show an early prototype 3D printed hand. On the left you see the fishing wire running through and out the bottom of the hand. On the right you can see the black elastic string running through and tied off at the base of the fingers.
 
