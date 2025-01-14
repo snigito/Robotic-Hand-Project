@@ -92,15 +92,21 @@ The new board shown on the left is functionally the same as the previous one but
 
 The ranges of the values of the flex resistors were too large  so I used a voltage divider to help balance it out. The signal wires are reading from the voltage after the resistor. 
 
-![Voltage Divider Circut Picture](images/IMG_6326.jpg)
+<div align="center">
+  <img src="images/IMG_6326.jpg" alt="Voltage Divider Circut Picture">
+</div>
 
 I designed an arm piece that would strap to my arm using velcro and would hold an arduino and a battery. It could then read the resistance values from each flex resistor and then send it to the other arduino inside the hand. The arduino in the hand then uses these values to move the servos and make the fingers match how mine are moving in the glove. 
 
-![Arm Piece Picture](images/IMG_6490.jpg)
+<div align="center">
+  <img src="images/IMG_6490.jpg" alt="Arm Piece Picture">
+</div>
 
 I bought an outdoor work glove and 3D printed guide rails for the flex resistors so that they would stay in a uniform position on each of my fingers. I sewed these guide rails into the outdoor work glove. I also sewed the base of each flex resistor to the base of each finger on the glove. After a few days of play rehearsals which was heavy testing for the glove and the hand, I noticed that the flex resistors values would no longer reflect the originals that we set. I had to hold my fingers and the resistors at awkward angles just to get to the original positions. Sometimes, even that would not work. After some research online, it became clear to me that the resistors’ degradation was a known problem. Therefore, I decided to make a new glove, and on this new one I would sew down the base of each resistor much more than I had on the first glove. 
 
-![Full Glove Picture](images/IMG_7216.jpg)
+<div align="center">
+  <img src="images/IMG_7216.jpg" alt="Full Glove Picture">
+</div>
 
 All of the programming files can be found below and are fully commented. When running the hand, first I plugged in the battery for the glove arduino, and it starts to look for a specific WIFI network with a specific name and would try the password that we gave it. The Arduino in the hand acts as a WIFI network and the one in the glove works as a WIFI client. This allows the two devices to communicate and send messages to one another. In this case I am using the glove Arduino to record the values of the flex resistors then scale those values to a number between 0 and 180 relative to the resistor’s minimum and maximum. The glove Ardunio then takes that number and the resistor number and sends the hand Ardunio a message in this format: “[resistor number] [desired angle]”. The resistor number corresponds to the servo controlling the same finger which the hand Ardunio sets to the desired angle after receiving the message. Both Arduinos display the values and the resistor number on their OLED screens in a scrolling format. The next value is displayed at the bottom and the preceding ones are shifted up to help with debugging to ensure all the values are expected as well as all the resistors are responsive. The code for this can be found in the text scrolls file. The code for the hand can be found in the 5 servo access point file. The code for the glove is found in the 5 servo client file. 
 
