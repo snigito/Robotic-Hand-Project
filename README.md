@@ -80,7 +80,13 @@ I changed over to a skin tone color for the 3D print. On the left is an initial 
 
 In order to make the Arduino, circuit board, servo motors, and batteries fit inside the casing I made a new circuit board and changed the layout of the battery pack. The new circuit board had connections so that the Arduino could plug in to the board directly with no wires in between. The battery pack I changed to a flat one where 4 AA batteries are laid parallel to one another and then recessed into the bottom of the housing. This allows for easy access to change out the batteries, adds weight to the bottom to prevent tipping, and is compact so it does not get in the way of other parts. Additionally, there is a small, rechargeable LIPO battery that powers the arduino. The larger battery pack powers the servos in conjunction with the smaller one to make the system work. For ease of use I also added a switch for the power battery wires. It is a DPDT switch with one throw wired in to cut off or allow the flow of power without having to take off the casing to turn it on. I also added a thumbscrew to the casing with a threaded insert to easily access the interior of the hand. I implemented a similar design with the back plate that the servos screw into so that the whole layout could be removed for easy access and servicing. 
 
-![Circut Board Picture](images/IMG_6722.jpg) ![Picture of Hand Assembly](images/IMG_6716.jpg)
+<div align="center">
+  <img src="images/IMG_6722.jpg" alt="Circut Board Picture">
+</div>
+
+<div align="center">
+  <img src="images/IMG_6716.jpg" alt="Picture of Hand Assembly">
+</div>
 
 The new board shown on the left is functionally the same as the previous one but without the ribbon cable connection so as to cut down on space. The image on the right shows the recessed battery pack, silver thumb screw on the left and the power switch on the top left above the Arduino.
 
